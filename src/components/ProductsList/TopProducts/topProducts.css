@@ -1,0 +1,32 @@
+.shopping__top-products {
+  padding: 0 60px;
+  display: grid;
+  align-items: flex-end;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 60px; 
+}
+
+.shopping__top-products__title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  margin-top: 32px;
+}
+
+.shopping__top-products__items {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 16px;
+  row-gap: 32px;
+}
+
+.shopping__top-products__toggle {
+  font-size: 16px;
+  line-height: 32px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.shopping__top-products__items {
+  grid-column: 1/-1;
+}
